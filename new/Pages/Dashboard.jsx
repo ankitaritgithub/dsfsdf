@@ -87,7 +87,7 @@ const Dashboard = () => {
     });
 
     const createWebSocket = () => {
-      wsRef.current = new WebSocket("ws://localhost:8002/ws/process_task");
+      wsRef.current = new WebSocket("ws://localhost:8000/ws/process_task");
 
       wsRef.current.onopen = () => {
         console.log("WebSocket connection established");
@@ -333,7 +333,7 @@ const Dashboard = () => {
         isOpen={isModalOpen}
         onClose={() => setIsModalOpen(false)}
       />
-      <Navbar />
+      {/* <Navbar /> */}
       <div className="main-content">
         <Sidebar onStartNewChat={handleStartNewChat} />
         <div className="dashboard-content">

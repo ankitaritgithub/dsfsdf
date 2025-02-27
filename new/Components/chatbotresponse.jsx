@@ -41,7 +41,7 @@ const ChatbotResponse = ({ content, suggestions }) => {
   const handleDownload = async () => {
     try {
       const response = await fetch(
-        "http://127.0.0.1:8002/download-report/newman-report.html"
+        "http://127.0.0.1:8000/download-report/newman-report.html"
       );
 
       if (!response.ok) {

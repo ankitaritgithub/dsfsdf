@@ -142,7 +142,7 @@ const Sidebar = ({ onStartNewChat }) => {
           />
         </div>
 
-        <div className="profile-section">
+        {/* <div className="profile-section">
           <div className="profile-content">
             <img src={profileImage} alt="Profile" className="profile-image" />
             <span className="profile-name">Piyush Sonawane</span>
@@ -150,7 +150,7 @@ const Sidebar = ({ onStartNewChat }) => {
           <button className="logout-button">
             <img src={sidebarLeftIcon} alt="Logout" width={16} height={16} />
           </button>
-        </div>
+        </div> */}
       </div>
     </div>
   );
