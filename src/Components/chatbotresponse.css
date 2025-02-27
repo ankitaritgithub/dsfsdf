@@ -1,0 +1,146 @@
+.chatbot-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.response-card {
+  width: 900px;
+  margin: 0 auto;
+  height: auto;
+  overflow: hidden;
+  border-radius: 12px;
+  border: 1px solid #FFE8C6;
+  padding: 24px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  margin-bottom: 16px;
+}
+
+.content-wrapper {
+  display: flex;
+  gap: 16px;
+}
+
+.icon-wrapper {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.icon-wrapper img {
+  width: 20px;
+  height: 20px;
+}
+
+.content-section {
+  flex: 1;
+}
+
+.formatted-content {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  line-height: 1.6;
+  color: #1f2937;
+  position: relative;
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+}
+
+.content-line {
+  margin-bottom: 8px;
+}
+
+.content-line strong {
+  color: #4a5568;
+  margin-right: 8px;
+}
+
+.content-note {
+  color: #718096;
+  font-style: italic;
+  margin-top: 12px;
+  font-size: 0.9em;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.action-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  background: white;
+  font-size: 14px;
+  color: #374151;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.action-button:hover {
+  background-color: #f9fafb;
+  border-color: #d1d5db;
+}
+
+.action-button img {
+  width: 16px;
+  height: 16px;
+}
+
+.action-buttons button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.suggestions-section {
+  margin-top: 24px;
+}
+
+.suggestions-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 16px;
+  color: #374151;
+  font-weight: 500;
+}
+
+.suggestion-list {
+  margin-left: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.suggestion-button {
+  width: 100%;
+  text-align: left;
+  padding: 12px 16px;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  background: white;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: all 0.2s ease;
+  color: #374151;
+  font-size: 14px;
+}
+
+.suggestion-button:hover {
+  background-color: #f9fafb;
+  border-color: #d1d5db;
+}
+
+.suggestion-button img {
+  width: 16px;
+  height: 16px;
+}
